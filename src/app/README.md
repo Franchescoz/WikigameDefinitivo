@@ -26,22 +26,6 @@ Pasos para lanzar el proyecto
 WIKIGAME
 Es una pagína tipo wikipedia pero enfocada a los videojuegos , donde vas a poder encontrar mucha informacion sobre estos , desde la historia del juego hasta incluso secretos.Basicamente vamos a tener para cada juego que añadamos una pagina con toda la informacion posible de este juego
 
-Estilos usados:
-Footer:
-Tiene el texto centrado y fondo negro
-
-Navbar:
-La navbar tiene un título en el color lavanda, el buscador con el filtro con sus tonos lavanda y blanco y el icono del perfil a la derecha 
-
-Landing:
-Para los botones he utilizado dos estilos  uno con un color rosa lavanda y el otro fondo negro y borde del mismo color que e lotro , los textos y las fotos estan puesta con grid que en e lcaso de movil es una columna y varias filas y en el caso de pantalla mediana son dos filas y 8 columnasel fondo esta puesto con un bg-[url('/movil.png')] que se intercambia con la foto de la version de movil.En el carrousel está hecho de manera que si es la del centro pone unos casos y si es otro distinto muestra otro estilo , fuentes como montserra , medula one y Gill sans.
-
-Iniciar sesion y Registrar:
-Estos dos los pongo juntos porque son casi iguales , tiene una imagen de fondo un recuadro negro donde se encuentra los imputs y los botones con el estilo de cada uno y el footer con algun informacion
-
-listaTarjetajuegos:
-Para las tarjetas se han puesto foto arriba texto abajo y se ha hecho que en pantalla de pc tenga un grid con dos filas y cuatro columnas y en la versión de móvil de columnas y cuatro filas, los botones de paginación tiene un hover que pone el botón color lavanda y letra blanca
-
 
 
 
