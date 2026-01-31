@@ -43,9 +43,13 @@ listaTarjetajuegos:
 Para las tarjetas se han puesto foto arriba texto abajo y se ha hecho que en pantalla de pc tenga un grid con dos filas y cuatro columnas y en la versión de móvil de columnas y cuatro filas, los botones de paginación tiene un hover que pone el botón color lavanda y letra blanca
 
 
+Crear Juego:
+Esta vista también tiene el fondo de iniciar sesion y justo encima un  cuadro negro donde se encuentra todo el contenido , los botones siguen el mismo estilo salvo el de subir imagen que es un icono  y los otros dos cuando pasan al version de movil que pasa a ser iconos. En la versión de móvil todo está en una columna salvo los botones de cancelar , en la versión de pc debido a la posición en la que se encuentra el botón crear se ha tenido que meter todo el contenido del recuadro negro en el formulario y apartir de ahi dividirlo en dos columnas con flex , una para las fotos que tambien se han ordenado por flex y tres botones y otra para los inputs. Para terminar el borde de la descripción se ha puesto de bg-Lavanda.
 
+Vistajuego y editar juego:
+Estas dos vistas van junto en un solo componente  la de editar juego es exactamente igual que la de crear juego cambiando que los botones en vez de llevarte hacia la vista donde estan las tarjetas de los juegos guarda los cambios y vuelve a la vista juego, que como en las demás el modo admin sera el unico que pueda editar por lo que el botón desaparece en la vista normal del juego que es como la anterior pero solo tiene un botón en forma de corazon para marcarlo de favorito arriba a la derecha y todo lo demás igual salvo que los campos tiene el fondo negro y todo colocado con flex dividido en dos columnas y en la de movil todo en una columna.
 
-
-
+Perfil y editarPerfil:
+Estos dos también están en un solo componente , para empezar tuve que cambiar la forma en se muestra las imágenes de los favoritos porque por alguna razón daba problema con los tamaños y no aparecían entonces me he visto obligado a cambiarlo para que se muestran,como en los demás lo he separados en dos columnas con flex , aunque con los favoritos he tenido que meter favoritos y las imágenes en un grid de una columna y después un flex para las imágenes, con los botones he tenido que crea botones parte como por ejemplo de banear hay dos uno con texto para la versión de PC que está debajo de lo que es la foto de perfil y el otro que es un icono que en la versión del móvil aparecerá arriba  y estos botones aparecerán cuando una cuenta admin esté sobre un perfil de un  usuario , mismo pasa con los botones de cancelar y volver que he tenido que hacer dos botones para el caso de movil y otro para el caso de pantallas más grandes, en la versión de movil las dos estan hechas en una columna con flex, lso demas son los mismo estilos ,fondo y recuadro negro como los demas .
  
 

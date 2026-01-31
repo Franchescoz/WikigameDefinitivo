@@ -37,7 +37,7 @@ const arrayImagenes=[imagenes[index]]
 <div className="grid grid-cols-1 sm:grid-cols-8 grid-rows-1 sm:grid-rows-2 gap-y-8 sm:gap-y-16 gap-x-4 w-full max-w-6xl">
   
   
-  <p className="bg-black text-xl sm:text-2xl p-6 rounded-4xl font-motserrat text-center col-span-1 sm:col-span-4 row-start-1 flex items-center justify-center">
+  <p className="bg-night text-xl sm:text-2xl p-6 rounded-4xl font-motserrat text-center col-span-1 sm:col-span-4 row-start-1 flex items-center justify-center">
     El portal de información de videojuegos que ve desde estos juegos
   </p>
 
@@ -48,7 +48,7 @@ const arrayImagenes=[imagenes[index]]
   <img className="hidden sm:block w-40 h-40 sm:w-48 sm:h-48 border-2 border-white justify-self-center col-span-2 row-start-2" src="pokemon.jpg" alt="pokemon" />
   <img className="hidden sm:block w-40 h-40 sm:w-48 sm:h-48 border-2 border-white justify-self-center col-span-2 row-start-2" src="toyStory3.jpg" alt="toy story" />
 
-  <p className="hidden sm:flex bg-black text-lg sm:text-2xl p-6 rounded-4xl font-motserrat text-center col-span-4 row-start-2 items-center justify-center">
+  <p className="hidden sm:flex bg-night text-lg sm:text-2xl p-6 rounded-4xl font-motserrat text-center col-span-4 row-start-2 items-center justify-center">
     Hasta incluso estos juegos de Nintendo
   </p>
 </div>
@@ -62,7 +62,7 @@ const arrayImagenes=[imagenes[index]]
 </Link>
 
 <Link href="/iniciarsesion">
-  <button className="bg-black border-2 border-Lavanda text-white py-4 px-8 rounded-full font-medulaone font-bold text-xl hover:bg-Lavanda hover:text-black transition">
+  <button className="bg-night border-2 border-Lavanda text-white py-4 px-8 rounded-full font-medulaone font-bold text-xl hover:bg-Lavanda hover:text-black transition">
     Iniciar sesión
   </button>
 </Link>
@@ -73,7 +73,7 @@ const arrayImagenes=[imagenes[index]]
       </div>
 
       {/* Carrusel */}
-      <div className="bg-black/80 p-8 flex justify-center items-center gap-4">
+      <div className="bg-night p-8 flex justify-center items-center gap-4">
   {imagenes.map((img, i) => {
     const offset = i - index;
     const isCenter = offset === 0;

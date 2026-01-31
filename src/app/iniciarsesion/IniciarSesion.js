@@ -34,7 +34,7 @@ export default function IniciarSesion() {
 </Link>
 
 <Link href="/registrar" className="w-full sm:w-1/2">
-  <button className="w-full bg-black border-2 border-Lavanda text-white py-3 rounded-full font-medulaone font-bold text-xl hover:bg-Lavanda hover:text-black transition">
+  <button className="w-full bg-night border-2 border-Lavanda text-white py-3 rounded-full font-medulaone font-bold text-xl hover:bg-Lavanda hover:text-black transition">
     ¿No tienes cuenta?
   </button>
 </Link>
