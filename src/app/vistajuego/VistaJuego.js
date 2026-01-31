@@ -88,8 +88,8 @@ export default function VistaJuego() {
   </button>
 
 
-  <button onClick={ activarEdicion}className=" hidden hover:border p-1 hover:border-Lavanda rounded-md transition">
-    <img src="/pencil-square.png" className="w-8 h-8"/>{/**Hidden que se pondra o no segun sea admin */}
+  <button onClick={ activarEdicion}className="  hover:border p-1 hover:border-Lavanda rounded-md transition">
+    <img src="/pencil-square.png" className="w-8 h-8"/>{/**Esto se pondra un hidden e el momento que la cuenta no sea de admin */}
   </button>
 
 </div>
