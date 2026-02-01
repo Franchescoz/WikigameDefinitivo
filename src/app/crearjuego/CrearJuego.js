@@ -62,15 +62,15 @@ export default function CrearVistaJuego() {
 
           <label className="text-sm font-motserrat">Consolas:</label>
           <input type="text" value={consolas} placeholder="Consolas..." onChange={(e)=> setConsolas(e.target.value)} required className="bg-white text-black rounded px-2 py-1"/>
-          <p className="text-xs text-white">{consolas.length>4?"Consolas validas":"No tiene consolas"}</p>
+          <p className="text-xs ">{consolas.length>4?"Consolas validas":"No tiene consolas"}</p>
 
           <label className="text-sm font-motserrat">Tipo de juego:</label>
           <input type="text" value={tipo} placeholder="Tipo de juegos.."onChange={(e)=> setTipo(e.target.value)} required className="bg-white text-black rounded px-2 py-1"/>
-          <p className="text-xs text-white">{tipo.length>4?"Tipos validos":"No tiene tipos"}</p>
+          <p className="text-xs ">{tipo.length>4?"Tipos validos":"No tiene tipos"}</p>
 
           <label className="text-sm font-motserrat">Descripcion:</label>
-          <textarea value={descripcion} placeholder="Descripcion..." onChange={(e)=> setDescripcion(e.target.value)} required minLength={20} className="bg-white border text-black border-Lavanda rounded px-2 py-2 h-40 resize-none"/>
-          <p className="text-xs text-white">{descripcion.length>19?"Descripcion valida":"La descripcion es muy corta"}</p>
+          <textarea value={descripcion} placeholder="Descripcion..." onChange={(e)=> setDescripcion(e.target.value)} required minLength={20} className="bg-white border text-black border-Lavanda rounded px-2 py-2 h-60 "/>
+          <p className="text-xs ">{descripcion.length>19?"Descripcion valida":"La descripcion es muy corta"}</p>
         </div>
 
       </form>

@@ -71,7 +71,7 @@ export default function VistaJuego() {
             <input value={tipo} onChange={e=>setTipo(e.target.value)} className="bg-white text-black rounded px-2 py-1"/>
                <p>{tipo.length>4?"Tipos validos":"No tiene tipos"}</p>
             <label className="font-motserrat">Descripcion:</label>
-            <textarea value={descripcion} onChange={e=>setDescripcion(e.target.value)} className="bg-white text-black rounded px-2 py-2 h-40 resize-none"/>
+            <textarea value={descripcion} onChange={e=>setDescripcion(e.target.value)} className="bg-white text-black rounded px-2 py-2 h-60 "/>
                <p>{descripcion.length!=0?"Descripcion valida":"La descripcion no puede estar vacia"}</p>
           </div>
 
@@ -108,7 +108,7 @@ export default function VistaJuego() {
         <p className=" font-motserrat"><b>Consolas:</b> {consolas}</p>
         <p className=" font-motserrat"><b>Tipo:</b> {tipo}</p>
 
-        <textarea readOnly value={descripcion} className="bg-night text-white border border-Lavanda rounded p-2 h-64 resize-none font-motserrat"/>
+        <textarea readOnly value={descripcion} className="bg-night text-white border border-Lavanda rounded p-2 h-60 resize-none font-motserrat"/>
       </div>
 
     </div>

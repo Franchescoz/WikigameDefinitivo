@@ -41,12 +41,12 @@ export function Navbar() {
         <select className="bg-Lavanda text-white px-2 sm:px-4 py-1 sm:py-2 rounded-l-lg border border-Lavanda text-sm sm:text-base"><option>Tipo juego</option><option>SandBox</option><option>Shooter</option><option>Lucha</option></select>
         <input type="text" placeholder="Buscar" className="flex-1 px-2 sm:px-4 py-1 sm:py-2 rounded-r-lg bg-white text-Lavanda border border-Lavanda placeholder-purple-300 focus:outline-none focus:ring-2 focus:ring-Lavanda text-sm sm:text-base max-w-[120px] sm:max-w-xs"/>
       </form>
-      <div className="flex flex-row items-center justify-end w-full sm:w-auto gap-2">
+      <div className="flex flex-row items-center justify-end w-full sm:w-auto gap-0">{/**El hidden para cuando el usuario que vea esta vista no sea el admin */}
         <Link href="/crear-juego">
-          <button className="hidden hover:scale-105 transition p-1 sm:p-2"><img src="/crear.png" alt="Crear" className="w-8 h-8"/></button>
+          <button className=" hover:scale-105 w-13 h-13 transition p-1 sm:p-2"><img src="/crear.png" alt="Crear" /></button>
         </Link>
         <Link href="/perfil">
-          <button className="hover:scale-105 transition p-1 sm:p-2"><img src="/iconoPerfil.png" alt="Perfil" className="w-8 sm:w-12 h-8 sm:h-12"/></button>
+          <button className="hover:scale-105 w-13 h-13 transition p-1 sm:p-2"><img src="/iconoPerfil.png" alt="Perfil" /></button>
         </Link>
       </div>
     </div>

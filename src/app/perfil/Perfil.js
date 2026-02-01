@@ -76,10 +76,10 @@ export default function Perfil() {
                        
                         <div className="flex flex-col w-full mt-4">
                             <label className="font-motserrat mb-2">Favorito:</label>
-                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-0">
+                            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                                 {juegos.map(juego => (
                                     <div key={juego.id} className="relative w-28 h-36">
-                                        <img src={juego.src} className="w-full h-full object-cover"/>
+                                        <img src={juego.src} className="w-full h-full "/>
                                         <button type="button"  onClick={()=>eliminarJuego(juego.id)} className="absolute top-0 right-0 translate-x-1/2 -translate-y-1/2 z-10">
                                             <img src="/quitar.png" className="w-8 h-8"/>
                                         </button>
@@ -124,10 +124,10 @@ export default function Perfil() {
                   
                     <div className="flex flex-col w-full mt-4">
                         <label className="font-motserrat mb-2">Favorito:</label>
-                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-0">
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
                             {juegos.map(juego => (
                                 <div key={juego.id} className="relative w-28 h-36">
-                                    <img src={juego.src} className="w-full h-full object-cover"/>
+                                    <img src={juego.src} className="w-full h-full "/>
                                     
                                 </div>
                             ))}

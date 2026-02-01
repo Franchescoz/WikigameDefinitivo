@@ -9,7 +9,7 @@ const array = [
   { id: 5, nombre: "Pokemon GO", src: "pokemongo.jpg" },
   { id: 6, nombre: "Dragon Ball Z: Budokai Tenkaichi 3", src: "tenkaichi.png" },
   { id: 7, nombre: "Inazuma Eleven", src: "inazumaeleven.jpg" },
-  { id: 8, nombre: "E-Football", src: "efootball.jpg" }
+  { id: 8, nombre: "E-Football", src: "efootball.jpg" }, 
 ]
 
 export default function ListaTarjetasJuegos() {
@@ -34,10 +34,10 @@ export default function ListaTarjetasJuegos() {
 
 function Juego({ objeto }) {
   return (
-    <div className="bg-white rounded-3xl shadow-lg overflow-hidden flex flex-col items-center p-4 hover:scale-105 transition">
+    <div className="rounded-3xl shadow-lg overflow-hidden  p-4 hover:scale-105 transition">
   <Link href={`/vistajuego`} className="w-full flex flex-col items-center">
     <img src={objeto.src} alt={objeto.nombre} className="w-4/5 h-72 sm:h-80 md:h-96 lg:h-[400px] object-contain rounded-t-lg" />
-    <p className="w-full -mt-1 text-center font-medium text-gray-800">
+    <p className="w-full -mt-1 text-center font-medium text-black">
       {objeto.nombre}
     </p>
   </Link>

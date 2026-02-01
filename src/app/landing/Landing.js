@@ -56,7 +56,7 @@ const arrayImagenes=[imagenes[index]]
        <div className="flex flex-col sm:flex-row justify-center gap-6 mt-20 sm:mt-32">
   
   <Link href="/registrar">
-  <button className="bg-Lavanda py-4 px-8 rounded-full font-medulaone text-white font-bold text-xl hover:bg-purple-700 transition">
+  <button className="bg-Lavanda py-4 px-8 rounded-full font-medulaone text-white font-bold text-xl hover:bg-Lavanda transition">
     Registrarse
   </button>
 </Link>
@@ -72,7 +72,7 @@ const arrayImagenes=[imagenes[index]]
 
       </div>
 
-      {/* Carrusel */}
+    
       <div className="bg-night p-8 flex justify-center items-center gap-4">
   {imagenes.map((img, i) => {
     const offset = i - index;
